@@ -15,10 +15,15 @@ URL: https://github.com/pik-piam/mrPEM
 Depends:
   madrat,
   magclass,
-  mrcommons
+  mrremind
 Imports:
   dplyr,
+  gdx,
+  lmtest,
+  logistf,
+  brglm2,
   readxl,
+  sandwich,
   tidyr,
   quitte,
   stringr,

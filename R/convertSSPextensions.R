@@ -8,8 +8,6 @@
 #' @importFrom magclass getYears
 #'
 convertSSPextensions <- function(x) {
-
-  #x[is.na(x)] <- 0
   x <- x[, sort(magclass::getYears(x, as.integer = TRUE)), ]
   x <- madrat::toolFillYears(x, sort(magclass::getYears(x, as.integer = TRUE)))
   x <- madrat::toolCountryFill(x, fill = NA, verbosity = 2)

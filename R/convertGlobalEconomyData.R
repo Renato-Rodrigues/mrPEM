@@ -13,7 +13,6 @@
 #'
 #'
 convertGlobalEconomyData <- function(x) {
-
   x <- magpiesort(x)
   x <- madrat::toolFillYears(x, sort(magclass::getYears(x, as.integer = TRUE)))
   x <- madrat::toolCountryFill(x, fill = NA, verbosity = 2)

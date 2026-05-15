@@ -1,5 +1,11 @@
+.agents
+.data
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 mrPEM.Rproj
+.vscode/settings.json
+output/
+*.html
+
